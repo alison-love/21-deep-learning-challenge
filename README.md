@@ -26,18 +26,21 @@ Conclusion and Future Directions
 
 The optimized model shows promising results, with a test accuracy of 72%. While just shy of the 75% target, the improvements demonstrate the value of hyperparameter tuning in enhancing model performance.
 
-Recommendations
+### Recommendations
 Further Tuning: Additional rounds of tuning with an expanded search space might uncover more optimal configurations.
 Advanced Feature Engineering: Investigating deeper into the features could reveal new insights for model improvement.
+
 Exploring Ensemble Methods: Combining predictions from multiple models could enhance overall accuracy.
-Project Files
 
-charity_data.csv: Dataset file.
-AlphabetSoupCharity.ipynb: Jupyter Notebook for initial model development.
-AlphabetSoupCharity_Optimization.ipynb: Notebook detailing the optimization process.
-Usage
+### Project Files
 
-Clone the repository to access the project files.
-Ensure necessary libraries (tensorflow, keras-tuner, pandas, numpy) are installed.
-Run AlphabetSoupCharity.ipynb for an overview of the initial modeling efforts.
-Proceed with AlphabetSoupCharity_Optimization.ipynb to explore the optimization steps and outcomes.
+- charity_data.csv: Dataset file.
+- AlphabetSoupCharity.ipynb: Jupyter Notebook for initial model development.
+- AlphabetSoupCharity_Optimization.ipynb: Notebook detailing the optimization process.
+
+### Usage
+
+- Clone the repository to access the project files.
+- Ensure necessary libraries (tensorflow, keras-tuner, pandas, numpy) are installed.
+- Run AlphabetSoupCharity.ipynb for an overview of the initial modeling efforts.
+- Proceed with AlphabetSoupCharity_Optimization.ipynb to explore the optimization steps and outcomes.
